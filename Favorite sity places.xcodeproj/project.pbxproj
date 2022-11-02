@@ -52,7 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				F59B243F2912DB1600E7EAA1 /* Favorite_sity_placesApp.swift */,
-				F59B24412912DB1600E7EAA1 /* ContentView.swift */,
+				F59B244F2912DB8200E7EAA1 /* Views */,
+				F59B244E2912DB7800E7EAA1 /* ViewModels */,
+				F59B244D2912DB6E00E7EAA1 /* Models */,
 				F59B24432912DB1700E7EAA1 /* Assets.xcassets */,
 				F59B24452912DB1700E7EAA1 /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				F59B24462912DB1700E7EAA1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F59B244D2912DB6E00E7EAA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F59B244E2912DB7800E7EAA1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F59B244F2912DB8200E7EAA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59B24412912DB1600E7EAA1 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
