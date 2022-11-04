@@ -11,7 +11,8 @@ import SwiftUI
 struct Favorite_sity_placesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }
