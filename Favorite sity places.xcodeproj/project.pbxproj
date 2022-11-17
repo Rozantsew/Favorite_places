@@ -21,6 +21,7 @@
 		F59B24442912DB1700E7EAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59B24432912DB1700E7EAA1 /* Assets.xcassets */; };
 		F59B24472912DB1700E7EAA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59B24462912DB1700E7EAA1 /* Preview Assets.xcassets */; };
 		F59B24512912DCD400E7EAA1 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B24502912DCD400E7EAA1 /* ContentModel.swift */; };
+		F5D6B7C529269978002B96EA /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6B7C429269978002B96EA /* BusinessMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F59B24432912DB1700E7EAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F59B24462912DB1700E7EAA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F59B24502912DCD400E7EAA1 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		F5D6B7C429269978002B96EA /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				F5511691291924A50047E0E7 /* HomeView.swift */,
+				F5D6B7C32926993E002B96EA /* Map */,
 				F551169329192C920047E0E7 /* List */,
 			);
 			path = Home;
@@ -169,6 +172,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F5D6B7C32926993E002B96EA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6B7C429269978002B96EA /* BusinessMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +259,7 @@
 				F56C03A629195AC000CE229B /* BusinessDetail.swift in Sources */,
 				F59B24512912DCD400E7EAA1 /* ContentModel.swift in Sources */,
 				F551169529192CA40047E0E7 /* BusinessList.swift in Sources */,
+				F5D6B7C529269978002B96EA /* BusinessMap.swift in Sources */,
 				F551169B29193A3A0047E0E7 /* BusinessRow.swift in Sources */,
 				F5511692291924A50047E0E7 /* HomeView.swift in Sources */,
 				F551168B291574510047E0E7 /* Constants.swift in Sources */,
