@@ -15,8 +15,10 @@ struct BusinessList: View {
         ScrollView (showsIndicators: false) {
             LazyVStack (alignment: .leading, pinnedViews: [.sectionHeaders]) {
                 BusinessSection(title:  "Restaurants", businesses: model.restaurants)
+                    .frame(alignment: .leading)
                 
                 BusinessSection(title: "Sights", businesses: model.sights )
+                    .frame(alignment: .leading)
             }
         }
     }
@@ -25,6 +27,6 @@ struct BusinessList: View {
 struct BusinessList_Previews: PreviewProvider {
     
     static var previews: some View {
-        BusinessList()
+        BusinessList()    
     }
 }

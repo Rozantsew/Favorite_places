@@ -37,15 +37,38 @@ struct HomeView: View {
                     .navigationBarHidden(true)
                 }
                 else {
-                    // Show map
-                    BusinessMap(selectedBusiness: $selectedBusiness)
-                        .ignoresSafeArea()
-                        .sheet(item: $selectedBusiness) { business in
-                            // Create a business detail view instance
+                    
+                    ZStack (alignment: .top) {
+                        // Show map
+                        BusinessMap(selectedBusiness: $selectedBusiness)
+                            .ignoresSafeArea()
+                            .sheet(item: $selectedBusiness) { business in
+                                // Create a business detail view instance
+                                
+                                // Pass in the selected business
+                                BusinessDetail(business: business)
+                            }
+                        
+                        // Rectangle overlay
+                        ZStack {
+                            Rectangle()
+                                .foregroundColor(.white)
+                                .cornerRadius(5)
+                                .frame(height: 48)
                             
-                            // Pass in the selected business
-                            BusinessDetail(business: business)
+                            HStack {
+                                Image(systemName: "location")
+                                Text("San francisco")
+                                Spacer()
+                                Button("Switch to list view") {
+                                    self.isMapShowing = false
+                                }
+                            }
+                            .padding()
                         }
+                        .padding()
+                    }
+                    .navigationBarHidden(true)
                 }
             }
         }
