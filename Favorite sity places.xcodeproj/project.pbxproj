@@ -21,6 +21,8 @@
 		F55116992919357D0047E0E7 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55116982919357D0047E0E7 /* BusinessSection.swift */; };
 		F551169B29193A3A0047E0E7 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551169A29193A3A0047E0E7 /* BusinessRow.swift */; };
 		F56C03A629195AC000CE229B /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56C03A529195AC000CE229B /* BusinessDetail.swift */; };
+		F5797547292BC59E00DA89FF /* YelpAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5797546292BC59E00DA89FF /* YelpAttribution.swift */; };
+		F5797549292BCABC00DA89FF /* DashedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5797548292BCABC00DA89FF /* DashedDivider.swift */; };
 		F59B24402912DB1600E7EAA1 /* Favorite_sity_placesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B243F2912DB1600E7EAA1 /* Favorite_sity_placesApp.swift */; };
 		F59B24422912DB1600E7EAA1 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B24412912DB1600E7EAA1 /* LaunchView.swift */; };
 		F59B24442912DB1700E7EAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59B24432912DB1700E7EAA1 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		F55116982919357D0047E0E7 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 		F551169A29193A3A0047E0E7 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		F56C03A529195AC000CE229B /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		F5797546292BC59E00DA89FF /* YelpAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAttribution.swift; sourceTree = "<group>"; };
+		F5797548292BCABC00DA89FF /* DashedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedDivider.swift; sourceTree = "<group>"; };
 		F59B243C2912DB1600E7EAA1 /* Favorite sity places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite sity places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59B243F2912DB1600E7EAA1 /* Favorite_sity_placesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_sity_placesApp.swift; sourceTree = "<group>"; };
 		F59B24412912DB1600E7EAA1 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,15 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
+		F5797545292BC56E00DA89FF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F5797546292BC59E00DA89FF /* YelpAttribution.swift */,
+				F5797548292BCABC00DA89FF /* DashedDivider.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		F59B24332912DB1600E7EAA1 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +191,7 @@
 		F59B244F2912DB8200E7EAA1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5797545292BC56E00DA89FF /* Common */,
 				F59B24412912DB1600E7EAA1 /* LaunchView.swift */,
 				F5511690291924700047E0E7 /* Home */,
 				F551168F2919245E0047E0E7 /* Denied */,
@@ -275,11 +289,13 @@
 				F551168829156E3F0047E0E7 /* BusinessSearch.swift in Sources */,
 				F56C03A629195AC000CE229B /* BusinessDetail.swift in Sources */,
 				F50867B5292BB88F0086BCFB /* LocationDeniedView.swift in Sources */,
+				F5797549292BCABC00DA89FF /* DashedDivider.swift in Sources */,
 				F59B24512912DCD400E7EAA1 /* ContentModel.swift in Sources */,
 				F50867AF2927CA540086BCFB /* BusinessTitle.swift in Sources */,
 				F551169529192CA40047E0E7 /* BusinessList.swift in Sources */,
 				F5D6B7C529269978002B96EA /* BusinessMap.swift in Sources */,
 				F551169B29193A3A0047E0E7 /* BusinessRow.swift in Sources */,
+				F5797547292BC59E00DA89FF /* YelpAttribution.swift in Sources */,
 				F5511692291924A50047E0E7 /* HomeView.swift in Sources */,
 				F50867B3292BAB000086BCFB /* OnboardingView.swift in Sources */,
 				F551168B291574510047E0E7 /* Constants.swift in Sources */,
